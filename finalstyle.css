@@ -1,0 +1,28 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; background: #ffffff;}
+
+a {text-decoration: none; color: #000000;}
+
+a:hover {background: black; color: #ff7300;}
+
+#menubar {border-top: 4px solid #ff7300; border-right: 4px solid #ff7300; color: #ff7300; height: 23px;}
+
+.menu {float: left; padding: 0.1em 3em 0.1em 0.5em; cursor: default;}
+
+.menu ul {display: none; position:absolute; background-color: #ff7300; color: #ff7300; list-style: none; margin: 0.1em 0 0 0; padding: 0;}
+
+.menu ul li {display: block; font-size: small; padding: 0.2em}
+
+div.menu:hover ul {margin: 0; padding: 0; display: block; border-bottom: .15em solid #ff7300; border-left: .15em solid #ff7300;}
+
+div.menu ul li:hover {background-color: #40e055;}
+
+div.content {margin-left: 20px; margin-right: 20px; padding-top: 8%; color: #ff7300;}
+        
+div.audio {text-align: center;}
+
+div.movie {text-align: center;}
+
+li.navlist {display:inline; list-style-type: none;}
+
+.boldword {font-weight: bolder;}
+        
